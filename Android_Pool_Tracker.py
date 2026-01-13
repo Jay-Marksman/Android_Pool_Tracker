@@ -1,8 +1,3 @@
-"""
-Aerodrome_Base_v2.py - Fixed version with requested features.
-FIX: update_xaxis() -> update_layout(xaxis_tickangle=...)
-"""
-
 import requests
 import pandas as pd
 import streamlit as st
