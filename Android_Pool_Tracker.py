@@ -6,6 +6,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import re
 import time
+from web3 import Web3
 from typing import Dict, Optional, List
 from datetime import datetime, timedelta
 
