@@ -241,6 +241,10 @@ def main():
                          'Token B', 'Token B Balance', 'Total Liq. (USD)', 
                          'Vol. 24h (USD)', 'Trades 24h', 'Stable Fee %']
     st.dataframe(df_display, use_container_width=True, hide_index=True)
+    # After st.dataframe(df_display...) and metrics
+    import PoolTimeframes as tf
+    tf.display_timeframe_analytics(df, fee_client)  # Pass your existing df and fee_client
+
 
     # Aggregates
     col1, col2, col3 = st.columns(3)
